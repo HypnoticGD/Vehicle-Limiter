@@ -1,6 +1,10 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 -- Speed limits configuration table
+
+-- Choose what type of version u want to choose Vehicles at the Model Name 
+-- or the whole Category Both are not working
+
 local SpeedLimits = {
      -- Model-specific limits (use vehicle model names, lowercase)
      ['adder'] = { limitKMH = 140, limitMPH = 85 }, -- Specific limit for Adder
