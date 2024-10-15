@@ -19,9 +19,9 @@ local function ApplySpeedLimit(vehicle)
             SetEntityMaxSpeed(vehicle, maxSpeed)
             
             -- Notify the player
-            QBCore.Functions.Notify("Speed limit set to " .. speedLimit .. (useMPH and " MPH" or " KMH"))
+            -- QBCore.Functions.Notify("Speed limit set to " .. speedLimit .. (useMPH and " MPH" or " KMH"))
         else
-            QBCore.Functions.Notify("No speed limit for this vehicle category.", "error")
+            -- QBCore.Functions.Notify("No speed limit for this vehicle category.", "error")
         end
     end, vehicleModel, useMPH)
 end
